@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flores Amarillas</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #FFC107, #FFA000);
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .card {
+            background: #FFF3E0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            margin-top: 50px;
+        }
+        .btn {
+            background: #FFC107;
+            border: none;
+            padding: 10px 15px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background: #FFA000;
+        }
+        img {
+            width: 100px; /* Ajusta el tamaño de la imagen según necesidad */
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h2>🌻 Flores Amarillas para Ti 🌻</h2>
+        <img src="flores Amarillas.GIF" alt="Flores Amarillas">
+        <p>Un pequeño detalle lleno de luz y color, para alegrarte el día y recordarte lo <b style="color:red;">especial</b> que eres.</p>
+        <p>✨ ¡Que la alegría te acompañe siempre! 💛</p>
+        
+        <!-- Audio -->
+        <audio id="audio" src="musica.mp3"></audio>
+        <br>
+        <button class="btn" onclick="document.getElementById('audio').play()">🎵 Reproducir Música</button>
+        <button class="btn" onclick="document.getElementById('audio').pause()">⏸ Pausar Música</button>
+    </div>
+
+</body>
+</html>
+
+
